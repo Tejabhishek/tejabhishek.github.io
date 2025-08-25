@@ -2,71 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tejabhishek Sreepada</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #333;
-      line-height: 1.6;
-    }
-    header { text-align: center; margin-bottom: 40px; }
-    h1 { margin-bottom: 10px; font-size: 2.5rem; }
-    h2 { margin-top: 40px; font-size: 1.5rem; border-bottom: 2px solid #eee; padding-bottom: 5px; }
-    ul { list-style-type: none; padding: 0; }
-    li { margin: 10px 0; }
-    a { color: #0366d6; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .skills span { background: #f1f1f1; padding: 5px 10px; margin: 5px; border-radius: 4px; }
-    footer { margin-top: 60px; text-align: center; color: #666; font-size: 0.9rem; }
+    body{font-family:sans-serif;max-width:600px;margin:2rem auto;line-height:1.6;padding:0 1rem;color:#333}
+    h1,h2{line-height:1.2}
+    a{color:#007acc;text-decoration:none}
+    .skills{display:flex;gap:0.5rem;flex-wrap:wrap}
+    .skills span{background:#eef;border-radius:4px;padding:0.2rem 0.5rem}
+    .project{margin-bottom:1.5rem}
+    footer{margin-top:2rem;font-size:0.9rem;color:#666;text-align:center}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Tejabhishek Sreepada</h1>
-    <p>Software Developer • Distributed Systems • San Jose, CA</p>
-    <p>
-      <a href="https://github.com/Tejabhishek">GitHub</a> |
-      <a href="https://linkedin.com/in/tejabhishek/">LinkedIn</a>
-    </p>
-  </header>
+  <h1>Tejabhishek Sreepada</h1>
+  <p><em>Developer. Distributed Systems Enthusiast. Full-Stack Generalist.</em></p>
 
   <section>
-    <h2>About</h2>
-    <p>
-      I'm deeply passionate about building efficient, scalable applications.  
-      I thrive with Java, Python, and JavaScript—especially when creating distributed systems that just work.
-    </p>
+    <h2>About Me</h2>
+    <p>I’m a software developer based in San Jose, CA with experience building scalable systems using Golang, Java, Python, and JavaScript. I’m all about solid fundamentals and clean design—because it’s how things have *always* been done, and for good reason.</p>
   </section>
 
   <section>
     <h2>Skills</h2>
-    <p class="skills">
-      <span>Java</span>
-      <span>Python</span>
-      <span>JavaScript</span>
-      <span>Distributed Systems</span>
-      <span>Spring • Flask • React • Node.js • MongoDB</span>
-    </p>
+    <div class="skills">
+      <span>Golang</span><span>Java</span><span>Python</span><span>JavaScript</span><span>Distributed Systems</span>
+    </div>
   </section>
 
   <section>
     <h2>Projects</h2>
-    <ul>
-      <li><strong>TrainBookingSystem</strong> – Java Spring, Hibernate, ReactJS &amp; MySQL</li>
-      <li><strong>BulletinBoard</strong> – ReactJS app for drag-and-drop notes</li>
-      <li><strong>WebsiteTemplates</strong> – Clean HTML & CSS templates</li>
-      <li><strong>RESTful-API</strong> – Node.js, Express & MongoDB</li>
-      <li><strong>CRUD Web App</strong> – Python & Flask</li>
-      <li><strong>Machine Learning Curriculum</strong> – Curated learning path :contentReference[oaicite:1]{index=1}</li>
-    </ul>
+
+    <div class="project">
+      <h3><a href="https://github.com/Tejabhishek/TrainBookingSystem-Java-Spring-ReactJS-MySQL">TrainBookingSystem</a></h3>
+      <p>Ticket booking & management system using Java Spring, React, Hibernate & MySQL.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/Tejabhishek/BulletinBoard-using-ReactJS">BulletinBoard (React)</a></h3>
+      <p>A small, movable, CRUD-enabled bulletin board built with React.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/Tejabhishek/WebsiteTemplates">WebsiteTemplates</a></h3>
+      <p>Basic HTML & CSS templates—clean, minimal, and ready to customize.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/Tejabhishek/RESTFul-API-with-MongoDB-Express-and-Node">RESTful API (Node)</a></h3>
+      <p>Express + MongoDB REST API to handle CRUD logic the modern way.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/Tejabhishek/CRUDwebappwithpythonandflask">CRUD Web App (Flask)</a></h3>
+      <p>Python & Flask demo for simple create/read/update/delete operations.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/Tejabhishek/Machine-Learning-Curriculum">Machine Learning Curriculum</a></h3>
+      <p>A curated path from beginner to ML scientist—forked and extended for clarity.</p>
+    </div>
   </section>
 
   <footer>
-    Built by Tejabhishek • © 2025
+    <p>Find me on <a href="https://github.com/Tejabhishek">GitHub</a> • <a href="https://linkedin.com/in/tejabhishek/">LinkedIn</a></p>
   </footer>
 </body>
 </html>
